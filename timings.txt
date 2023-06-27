@@ -1,0 +1,8 @@
+## No Optimizations (Validation Images)
+
+M1-MPS=204.527s
+M1-CPU=909.46s
+
+## OpenVINO Runtime on Mac (Validation Images)
+M1-CPU=2641.2
+
