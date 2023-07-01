@@ -1,0 +1,13 @@
+train: Intel-OneAPI/train/images
+val: Intel-OneAPI/valid/images
+test: Intel-OneAPI/test/images
+
+nc: 11
+names: ['0', '1', '10', '2', '3', '4', '5', '6', '7', '8', '9']
+
+roboflow:
+  workspace: intel-aiemi
+  project: intel-oneapi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/intel-aiemi/intel-oneapi/dataset/1
