@@ -4,6 +4,7 @@ from pathlib import Path
 
 import cv2
 import torch
+import intel_extension_for_pytorch as ipex
 import torch.backends.cudnn as cudnn
 from numpy import random
 
@@ -40,7 +41,10 @@ def detect(save_img=False):
 
     if half:
         model.half()  # to FP16
-
+    model.eval()
+    model = model.to(memory_format=torch.channels_last)
+    model = ipex.optimize(model)
+    
     # Second-stage classifier
     classify = False
     if classify:
@@ -84,7 +88,7 @@ def detect(save_img=False):
 
         # Inference
         t1 = time_synchronized()
-        with torch.no_grad():   # Calculating gradients would cause a GPU memory leak
+        with torch.no_grad(): # Calculating gradients would cause a GPU memory leak
             pred = model(img, augment=opt.augment)[0]
         t2 = time_synchronized()
 
