@@ -1,8 +1,8 @@
 # Team Name - Ai Artistss
-# Problem Statement - Object Detection For Autonomous Vehicles
-## Output Videos From Our Model
+# Problem Statement - Object Detection For Autonomous Vehicles 🚗`
+## Output Videos From Our Model 📺
 https://drive.google.com/drive/folders/1WSYknCyP11lraXsjaTRNCGYYS4ejhJXf
-## Introduction
+## Introduction 🤝
 "Enhanced Object Detection with Intel: Leveraging Intel Technologies for Accurate and Efficient YOLOv5 Model"
 
 In our project, we have harnessed the power of Intel technologies to enhance the capabilities of the YOLOv5 algorithm for object detection. By leveraging Intel's optimized libraries and frameworks, such as Intel oneDAL, Intel optimized PyTorch, and the SYCL/DPC++ libraries, we have achieved superior performance, accuracy, and efficiency in our object detection model. This integration enables us to process data faster, optimize resource utilization, and streamline post-processing steps, leading to robust and real-time object detection for autonomous vehicle applications.
@@ -27,14 +27,14 @@ In our project, we have harnessed the power of Intel technologies to enhance the
  - What I Learned
 
  <!-- Purpose -->
-## Purpose
+## Purpose 💰
 The purpose of our project is to leverage Intel technologies to enhance the YOLOv7 algorithm for object detection in the context of autonomous vehicles. By utilizing Intel oneDAL, Intel optimized PyTorch, and the SYCL/DPC++ libraries with neural compressor, we aim to achieve improved performance, accuracy, and efficiency in detecting and classifying objects in real-time. Our goal is to provide a reliable and effective solution for autonomous vehicles to detect and respond to various objects and obstacles on the road, ensuring enhanced safety and efficiency in autonomous driving systems.
 
 <!-- A Brief of the Prototype -->
-## 📜 A Brief of the Prototype:
+## A Brief of the Prototype: 📜
 Our prototype's real-time object detection and distance recognition features are meant to make self-driving cars safer and more efficient. By leveraging the power of Intel technologies and frameworks, we've created a robust system that combines advanced computer vision algorithms and deep learning models.Intel AI Analytics Toolkit, featuring optimised deep learning frameworks like PyTorch, powers the prototype. Intel-optimized libraries like oneDNN and oneDAL were used to train and infer deep learning models. This helps us locate items around the car.
 
-## Core components of oneAPI/SYCL used in the project
+## Core components of oneAPI/SYCL used in the project ☠️
 - Intel Optimization for PyTorch
   - Gave us extra performance boost on Intel Hardware.
 - Intel Neural Compressor
@@ -69,6 +69,12 @@ Using Intel® AI Analytics Toolkits we were able to enhance performance speed in
 - We explored a range of Intel's software development tools and libraries, including the AI analytics toolkit and its libraries.
 Using Intel® AI Analytics Toolkits we were able to enhance performance speed in training data. Brainstormed with novel algorithms for different kinds of object detection specific to autonomous vehicles. Implemented Object detection alongwith distance mapping of nearby objects in order to prevent collisions.
 We've been able to custom label/annotate the objects in detection.
+
+# Setup the project ☘️
+
+```python
+pip install -r requirements.txt
+```
 
 
 

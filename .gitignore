@@ -197,3 +197,5 @@ wandb/
 
 # Model Checkpoints
 *.pt
+*.onnx
+*.torchscript
